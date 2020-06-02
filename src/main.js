@@ -6,10 +6,15 @@ import './main.scss'
 import $ from 'jquery'
 window.$ = window.jQuery = $
 
-// setup bootstrap
-import 'bootstrap'
+// setup bootstrap individually
+import 'bootstrap/js/dist/popover';
 
 // start logic
 $(document).ready(() => {
-  console.log('Ready to rock')
+
+  // popover example
+  $(function() {
+    $('[data-toggle="popover"]').popover()
+  })
+
 })

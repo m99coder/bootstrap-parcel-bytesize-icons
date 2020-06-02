@@ -33,3 +33,21 @@ dist/main.ad4e9dd6.js                              169.32 KB    26ms
 dist/index.html                                      1.01 KB     8ms
 dist/main.efbf3977.css                                 575 B    39ms
 ```
+
+**Version 3: With `popover` example and individual Bootstrap plugins**
+
+```bash
+$ npm run build
+
+dist/main.348f24c3.js                            130.31 KB    255ms
+├── node_modules/jquery/dist/jquery.js            87.31 KB      3ms
+├── node_modules/popper.js/dist/esm/popper.js     20.65 KB      1ms
+├── node_modules/bootstrap/js/dist/tooltip.js     13.13 KB      1ms
+├── node_modules/bootstrap/js/dist/popover.js      3.59 KB      2ms
+├── node_modules/bootstrap/js/dist/util.js         2.46 KB      1ms
+├── node_modules/process/browser.js                1.67 KB      1ms
+└── src/main.js                                      426 B    197ms
+
+dist/main.9fa4ac0b.css                             2.77 KB     73ms
+dist/index.html                                    1.21 KB     30ms
+```
