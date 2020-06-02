@@ -2,6 +2,8 @@
 
 > Bootstrap 4.x Template with Parcel Bundler and Bytesize Icons
 
+This is a basic Bootstrap 4.x template using [Parcel](https://parceljs.org/) as a bundler and the beautifully crafted SVG [Bytesize Icons](https://danklammer.com/bytesize-icons/).
+
 Use one of the following commands:
 
 * `npm run serve`: Starts a server and watches for changes
