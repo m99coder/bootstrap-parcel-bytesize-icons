@@ -1,6 +1,12 @@
-# bootstrap-parcel-dripicons
+# bootstrap-parcel-bytesize-icons
 
-> Bootstrap 4.x Template with Parcel Bundler and Dripicons Integration
+> Bootstrap 4.x Template with Parcel Bundler and Bytesize Icons
+
+Use one of the following commands:
+
+* `npm run serve`: Starts a server and watches for changes
+* `npm run build`: Creates a production build with minification
+* `npm run clear`: Removes the `dist` folder
 
 **Version 1: Pure Parcel**
 

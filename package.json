@@ -1,18 +1,17 @@
 {
-  "name": "bootstrap-parcel-dripicons",
+  "name": "bootstrap-parcel-bytesize-icons",
   "version": "0.1.0",
-  "description": "Bootstrap 4.x Template with Parcel Bundler and Dripicons Integration",
+  "description": "Bootstrap 4.x Template with Parcel Bundler and Bytesize Icons",
   "private": true,
   "scripts": {
     "build": "del-cli dist && parcel build ./**/*.html -d dist --no-source-maps --detailed-report",
     "clear": "del-cli dist",
-    "serve": "del-cli dist && parcel ./**/*.html -d dist",
-    "watch": "del-cli dist && parcel watch ./**/*.html"
+    "serve": "del-cli dist && parcel ./**/*.html -d dist"
   },
   "keywords": [
     "bootstrap",
     "parcel",
-    "dripicons"
+    "bytesize-icons"
   ],
   "author": "Marco Lehmann <m99coder@gmail.com>",
   "license": "MIT",
