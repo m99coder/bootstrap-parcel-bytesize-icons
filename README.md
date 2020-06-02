@@ -6,6 +6,7 @@
 
 ```bash
 $ npm run build
+
 dist/main.ad4e9dd6.js                              169.32 KB    4.46s
 ├── node_modules/jquery/dist/jquery.js              87.31 KB    2.04s
 ├── node_modules/bootstrap/dist/js/bootstrap.js     58.28 KB    2.76s
@@ -20,6 +21,8 @@ dist/index.html                                      1.01 KB    446ms
 **Version 2: With `purgecss`**
 
 ```bash
+$ npm run build
+
 dist/main.ad4e9dd6.js                              169.32 KB    26ms
 ├── node_modules/jquery/dist/jquery.js              87.31 KB     2ms
 ├── node_modules/bootstrap/dist/js/bootstrap.js     58.28 KB     2ms
