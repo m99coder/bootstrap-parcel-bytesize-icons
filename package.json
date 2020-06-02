@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap-parcel-dripicons",
+  "version": "0.1.0",
+  "description": "Bootstrap 4.x Template with Parcel Bundler and Dripicons Integration",
+  "private": true,
+  "scripts": {
+    "build": "del-cli dist && parcel build ./**/*.html -d dist --no-source-maps --detailed-report",
+    "clear": "del-cli dist",
+    "serve": "del-cli dist && parcel ./**/*.html -d dist",
+    "watch": "del-cli dist && parcel watch ./**/*.html"
+  },
+  "keywords": [
+    "bootstrap",
+    "parcel",
+    "dripicons"
+  ],
+  "author": "Marco Lehmann <m99coder@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "del-cli": "^3.0.1",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.7"
+  }
+}

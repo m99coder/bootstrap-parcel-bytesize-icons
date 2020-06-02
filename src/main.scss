@@ -1,0 +1,20 @@
+
+// customization
+$body-bg: #000;
+$body-color: #CCC;
+
+// option A: Include all of Bootstrap
+// @import "~bootstrap/scss/bootstrap";
+
+// option B: Include parts of Bootstrap
+// required
+@import "~bootstrap/scss/_functions";
+@import "~bootstrap/scss/_variables";
+@import "~bootstrap/scss/_mixins";
+
+// optional
+@import "~bootstrap/scss/_reboot";
+@import "~bootstrap/scss/_type";
+@import "~bootstrap/scss/_images";
+@import "~bootstrap/scss/_code";
+@import "~bootstrap/scss/_grid";
